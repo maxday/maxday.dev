@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Maxime David (maxday)</title><link>https://maxday.dev/posts/</link><description>Recent content in Posts on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Rust on AWS App Runner - Part 2</title><link>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</guid><description>Hey hey hey 🍕!
-This is the second part of this series, make sure you&amp;rsquo;ve already read the first part :)
-In the first part, we saw how to create a basic Rust API with a GET /pizza endpoint to retrieve the list of pizza.
-In this part, let&amp;rsquo;s see how to containerize our app!
-Let&amp;rsquo;s create our container Since AWS App Runner is a fully managed container application service, we definitely need a container!</description></item><item><title>Rust on AWS App Runner - Part 1</title><link>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</guid><description>Hey hey hey 🍕!
-Over the past few months, I&amp;rsquo;ve been advocating for Rust on AWS Lambda a lot!
-Here is a quick recap in case you missed it!
-Live coding a AWS Lambda in Rust with TDD Lambda-Perf tool where Rust is killing the cold start game By the way, we&amp;rsquo;re almost at 256 ⭐️ which is 🤯 for a side project! I&amp;rsquo;m sure we can do it!
-Rust Linz Meetup where I gave a talk about Serverless + Rust But as you may know, serverless is NOT only about AWS Lambda.</description></item><item><title>How I Discovered That the AWS Lambda Runtime Might Be Written in Go</title><link>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</guid><description>Have you ever wondered how your Lambda function code is triggered?
-Each runtime has to conform to the AWS Lambda runtime API.
-In managed runtimes, you don&amp;rsquo;t need to take care of that; that&amp;rsquo;s the whole point of using a managed runtime! AWS takes care of that for you.
-But how?
-It&amp;rsquo;s hard to say because it&amp;rsquo;s not clearly documented. However, while I was conducting some unrelated experiments, I made a very cool discovery!</description></item><item><title>Benchmarking Rust for Serverless</title><link>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</guid><description>Let&amp;rsquo;s start with two very important questions:
-Why should I care to benchmark Rust since it&amp;rsquo;s already super fast? That&amp;rsquo;s the question we&amp;rsquo;ll try to answer in this post!
-Will there be a 🍕 demo? Of course, you know that I&amp;rsquo;m a true 🍕🍕🍕 lover!
-What&amp;rsquo;s so special about Serverless? Benchmarking is not specific to serverless. But in serverless components, such as AWS Lambda functions, performance really matters for two main reasons:</description></item><item><title>How to test println!</title><link>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</guid><description>Let&amp;rsquo;s say we want to test that a function is correctly outputting something.
-Our function may looks like this simple example: print n times the name given in parameter.
-fn greeting(nb: i32, name: &amp;amp;str) { for _ in 0..nb { println!(&amp;#34;hi {}&amp;#34;, name); } } How to test it? 🤔 It looks hard.
-One easy way is to refactor our code using a Trait. You can see Traits as interfaces.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Maxime David (maxday)</title><link>https://maxday.dev/posts/</link><description>Recent content in Posts on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Rust on AWS App Runner - Part 2</title><link>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</guid><description>&lt;p>Hey hey hey 🍕!&lt;/p>
+&lt;p>This is the second part of this series, make sure you&amp;rsquo;ve already read &lt;a href="https://dev.to/aws-builders/rust-on-aws-app-runner-part1-4hpp">the first part&lt;/a> :)&lt;/p>
+&lt;p>In the first part, we saw how to create a basic Rust API with a &lt;code>GET /pizza&lt;/code> endpoint to retrieve the list of pizza.&lt;/p>
+&lt;p>In this part, let&amp;rsquo;s see how to containerize our app!&lt;/p>
+&lt;h2 id="lets-create-our-container">Let&amp;rsquo;s create our container&lt;/h2>
+&lt;p>Since AWS App Runner is a fully managed container application service, we definitely need a container!&lt;/p></description></item><item><title>Rust on AWS App Runner - Part 1</title><link>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</guid><description>&lt;p>Hey hey hey 🍕!&lt;/p>
+&lt;p>Over the past few months, I&amp;rsquo;ve been advocating for Rust on AWS Lambda a lot!&lt;/p>
+&lt;p>Here is a quick recap in case you missed it!&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Idys2BAmqIU">Live coding&lt;/a> a AWS Lambda in Rust with TDD&lt;/li>
+&lt;li>&lt;a href="https://github.com/maxday/lambda-perf">Lambda-Perf tool&lt;/a> where Rust is killing the cold start game&lt;/li>
+&lt;/ul>
+&lt;p>By the way, we&amp;rsquo;re almost at 256 ⭐️ which is 🤯 for a side project! I&amp;rsquo;m sure we can do it!&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/live/5ptACic_FJQ?feature=share&amp;amp;t=255">Rust Linz Meetup&lt;/a> where I gave a talk about Serverless + Rust&lt;/li>
+&lt;/ul>
+&lt;p>But as you may know, serverless is NOT only about AWS Lambda. If you need compute, &lt;strong>AWS App Runner&lt;/strong> might be a great fit!&lt;/p></description></item><item><title>How I Discovered That the AWS Lambda Runtime Might Be Written in Go</title><link>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</guid><description>&lt;p>Have you ever wondered how your Lambda function code is triggered?&lt;/p>
+&lt;p>Each runtime has to conform to the &lt;a href="https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html">AWS Lambda runtime API&lt;/a>.&lt;/p>
+&lt;p>In managed runtimes, you don&amp;rsquo;t need to take care of that; that&amp;rsquo;s the whole point of using a managed runtime! AWS takes care of that for you.&lt;/p>
+&lt;p>But how?&lt;/p>
+&lt;p>It&amp;rsquo;s hard to say because it&amp;rsquo;s not clearly documented. However, while I was conducting some unrelated experiments, I made a very cool discovery!
+I think you&amp;rsquo;ll find it interesting too!&lt;/p></description></item><item><title>Benchmarking Rust for Serverless</title><link>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</guid><description>&lt;p>Let&amp;rsquo;s start with two &lt;strong>very&lt;/strong> important questions:&lt;/p>
+&lt;ol>
+&lt;li>Why should I care to &lt;strong>benchmark&lt;/strong> Rust since it&amp;rsquo;s already super fast?&lt;/li>
+&lt;/ol>
+&lt;p>That&amp;rsquo;s the question we&amp;rsquo;ll try to answer in this post!&lt;/p>
+&lt;ol start="2">
+&lt;li>Will there be a 🍕 demo?&lt;/li>
+&lt;/ol>
+&lt;p>Of course, you know that I&amp;rsquo;m a true 🍕🍕🍕 lover!&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/blog-benchmark-rust.png" alt="benchmark rust">&lt;/p>
+&lt;h3 id="whats-so-special-about-serverless">What&amp;rsquo;s so special about Serverless?&lt;/h3>
+&lt;p>Benchmarking is not specific to serverless. But in serverless components, such as AWS Lambda functions, performance really matters for two main reasons:&lt;/p></description></item><item><title>How to test println!</title><link>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</guid><description>&lt;p>Let&amp;rsquo;s say we want to test that a function is correctly outputting something.&lt;/p>
+&lt;p>Our function may looks like this simple example: print n times the name given in parameter.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">greeting&lt;/span>(nb: &lt;span style="color:#66d9ef">i32&lt;/span>, name: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">str&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> _ &lt;span style="color:#66d9ef">in&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">..&lt;/span>nb {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#e6db74">&amp;#34;hi &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, name);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>How to test it? 🤔 It looks hard.&lt;/p>
+&lt;p>One easy way is to refactor our code using a &lt;code>Trait&lt;/code>.
+You can see Traits as interfaces.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">trait&lt;/span> Logger {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> self, value: String);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, let&amp;rsquo;s define a &lt;code>struct&lt;/code> which implements this &lt;code>trait&lt;/code>.&lt;/p></description></item></channel></rss>

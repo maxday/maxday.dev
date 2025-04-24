@@ -1,38 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Talks on Maxime David (maxday)</title><link>https://maxday.dev/talks/</link><description>Recent content in Talks on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/talks/index.xml" rel="self" type="application/rss+xml"/><item><title>Benchmarking AWS Lambda cold starts</title><link>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</guid><description>Abstract: Did you know that cold start duration is directly tied to the runtime that your AWS Lambda function is running on? You’ve probably seen some blog posts on cold start benchmarking, but they may already be out of date.
-Join this dev chat for a deep dive on how to build an open-source and always up-to-date cold start benchmark. Get ready for an “Inception”-like experience, as the solution uses Lambda to benchmark Lambda.</description></item><item><title>Introduction to distributed tracing</title><link>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</guid><description>Abstract: Get ready for an immersive experience, with fewer slides and more live demos!
-What is distributed tracing? How to implement it with OpenTelemetry? Do you really need it for your applications? After an ultra-condensed introduction to key concepts, we will dive into live demos about distributed tracing in a Rust&amp;amp;Go stack!
-slides | pdf
-📸 CNCF Quebec</description></item><item><title>Rust + Serverless = ❤️</title><link>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</guid><description>Abstract: Discover the unbeatable synergy of Rust with serverless components such as AWS Lambda or GCP Cloud Run.
-Why Rust is the perfect match for serverless architecture?
-Uncover the unique features of Rust that make it the top choice for building ultra-efficient and robust serverless apps.
-Don&amp;rsquo;t miss this chance to revolutionize your cloud development game and enjoy a 100% serverless pizza tracker demo! 🍕
-pdf</description></item><item><title>Benchmarking Lambda cold starts</title><link>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</guid><description>Abstract: Want to understand and minimize Lambda coldstarts?
-Maxime David, Serverless Software Engineer at Datadog and AWS Community Builder, joins Julian Wood to go deep into cold start benchmarks.
-You may have read blog posts about coldstart benchmarks but unfortunately those are likely to be outdated. See how Maxime created a project to gather Lambda coldstarts across all runtimes.
-The report runs daily and compares and visualizes coldstart performance. You can see how Lambda optimizes cold starts over time.</description></item><item><title>Inception! Use serverless to build a Lambda coldstart benchmark across all runtimes</title><link>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</guid><description>Abstract: &amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo; &amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo; &amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo; Well well well, that&amp;rsquo;s not true!
-In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.
-📸 Matt Carey
-pdf</description></item><item><title>Serverless testing is NOT hard</title><link>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</link><pubDate>Wed, 31 May 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</guid><description>Abstract: &amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo; &amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo; &amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo; Well well well, that&amp;rsquo;s not true!
-In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.
-📸 Devoxx Poland flickr link
-pdf</description></item><item><title>OpenTelemetry, buzz-word or real need?</title><link>https://maxday.dev/talks/2023-03-22-opentelemetry/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-22-opentelemetry/</guid><description>Abstract: What is OpenTelemetry? Why do you need it? How to implement it?
-After defining some of the core concepts of observability, we will see why OpenTelemetry could be a key component of your applications. This talk will be punctuated by live demos to showcase how to implement OpenTelemetry in two different runtimes, spoiler alert: one of them is Rust :)
-📸 David Avenante
-link to the talk | pdf</description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</guid><description>Link to Youtube Video
-Abstract Guest lecture on Rust for AWS Lambda
-Agenda :
-Intro Serverless definitions AWS Lambda Demo Cold Start Beyond Hello World Non-clean implementation Clean code Tests CI/CD Questions link to the talk | pdf</description></item><item><title>Serverless is NOT hard to test</title><link>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</link><pubDate>Thu, 23 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</guid><description>Abstract: &amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo; &amp;ldquo;I&amp;rsquo;m mocking S3 so it&amp;rsquo;s not a real test&amp;rdquo; &amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo; Well well well, that&amp;rsquo;s not true!
-In this presentation, we will address those common beliefs by providing production ready examples.
-📸 Xavier Bouclet
-link to the talk | pdf</description></item><item><title>Building and Monitoring a Serverless App on AWS</title><link>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</guid><description>Abstract: In this workshop, you’ll learn how to use Datadog to trace through popular AWS managed services like API Gateway, SNS, and SQS—and how you can use these insights to successfully operate your serverless services at scale. You’ll see this firsthand by designing, deploying, and monitoring a fully serverless GitHub bot.
-Co-authored with AJ Stuyvenberg.
-📸 Jordan González
-Link to the workshop | pdf</description></item><item><title>Build a Real-time Pizza Tracker with Serverless</title><link>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</guid><description>Abstract: How Serverless technologies can be used to build a real-time pizza tracker?
-In this talk we will dive into serverless-applied design-patterns with a live-demo session to answer the following question :
-why and how a serverless architecture can be a great fit for realtime and highly scalable use cases?
-link to the talk | pdf</description></item><item><title>How to test your awesome iOS app</title><link>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</link><pubDate>Tue, 08 Nov 2016 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</guid><description>Link to Youtube Video
-Abstract XCode provides developers with two kinds of test : unit tests and UI tests. This live coding session will introduce both of these concepts.
-Schedule :
-Why should I test my mobile app ? Live coding : synchronous and asynchronous tests Live coding : UI tests Code coverage Everything shown in the session is available on Github, no more excuses to skip the tests :)</description></item><item><title>Grunt power: developing and releasing your web app has never been so easy</title><link>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</guid><description>Abstract Grunt is a very (very) powerful tool to automate your JavaScript webapp development and release tasks. During a step by step live demo, I will present how to use this tool and why this is a must have in every front-end developers toolbox.
-During live demos, we will see how to use Grunt to :
-start a local server to run your application watch for code or style modifications (live reload) compile SASS/LESS files to regular CSS concatenate and minify JavaScript files check for JavaScript errors against our pre-defined standard (thanks to JSHint) add copyright headers to files run unit tests and end-to-end tests deploy the app to your integration servers link to the talk | pdf</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Talks on Maxime David (maxday)</title><link>https://maxday.dev/talks/</link><description>Recent content in Talks on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/talks/index.xml" rel="self" type="application/rss+xml"/><item><title>Java Profiler Extension for AWS Lambda</title><link>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>On this live stream hosted by Eric Johnson, I introduced an alpha version of the AWS Lambda Java Profiler, a profiling tool designed to help developers analyze the performance of their Java functions running in AWS Lambda.&lt;/p>
+&lt;p>I walked through how to build and deploy it as a Lambda extension, configure it with environment variables, and view profiling results like flame graphs in S3.&lt;/p>
+&lt;p>Host: Eric Johnson - Principal Developer Advocate, AWS Serverless: &lt;a href="https://x.com/edjgeek">https://x.com/edjgeek&lt;/a> &lt;a href="https://www.linkedin.com/in/singledigit/">https://www.linkedin.com/in/singledigit/&lt;/a>&lt;/p></description></item><item><title>Benchmarking AWS Lambda cold starts</title><link>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>Did you know that cold start duration is directly tied to the runtime that your AWS Lambda function is running on? You’ve probably seen some blog posts on cold start benchmarking, but they may already be out of date.&lt;/p>
+&lt;p>Join this dev chat for a deep dive on how to build an open-source and always up-to-date cold start benchmark. Get ready for an “Inception”-like experience, as the solution uses Lambda to benchmark Lambda.&lt;/p></description></item><item><title>Introduction to distributed tracing</title><link>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>Get ready for an immersive experience, with fewer slides and more live demos!&lt;/p>
+&lt;ul>
+&lt;li>What is distributed tracing?&lt;/li>
+&lt;li>How to implement it with OpenTelemetry?&lt;/li>
+&lt;li>Do you really need it for your applications?&lt;/li>
+&lt;/ul>
+&lt;p>After an ultra-condensed introduction to key concepts, we will dive into live demos about distributed tracing in a Rust&amp;amp;Go stack!&lt;/p>
+&lt;p>&lt;a href="https://maxday.dev/slides/2023-distributed-tracing.pdf">slides&lt;/a> | &lt;a href="https://maxday.dev/pdf/2023-distributed-tracing.pdf">pdf&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2023-cncf-quebec.jpeg" alt="CNCF-2023-Quebec">
+📸 CNCF Quebec&lt;/p></description></item><item><title>Rust + Serverless = ❤️</title><link>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>Discover the unbeatable synergy of Rust with serverless components such as AWS Lambda or GCP Cloud Run.&lt;/p>
+&lt;p>Why Rust is the perfect match for serverless architecture?&lt;/p>
+&lt;p>Uncover the unique features of Rust that make it the top choice for building ultra-efficient and robust serverless apps.&lt;/p>
+&lt;p>Don&amp;rsquo;t miss this chance to revolutionize your cloud development game and enjoy a 100% serverless pizza tracker demo! 🍕&lt;/p>
+&lt;p>&lt;a href="https://maxday.dev/pdf/2023-rust-linz.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Benchmarking Lambda cold starts</title><link>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>Want to understand and minimize Lambda coldstarts?&lt;/p>
+&lt;p>Maxime David, Serverless Software Engineer at Datadog and AWS Community Builder, joins Julian Wood to go deep into cold start benchmarks.&lt;/p>
+&lt;p>You may have read blog posts about coldstart benchmarks but unfortunately those are likely to be outdated. See how Maxime created a project to gather Lambda coldstarts across all runtimes.&lt;/p>
+&lt;p>The report runs daily and compares and visualizes coldstart performance. You can see how Lambda optimizes cold starts over time.&lt;/p></description></item><item><title>Inception! Use serverless to build a Lambda coldstart benchmark across all runtimes</title><link>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;ul>
+&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
+&lt;p>In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2023-serverless-london.JPG" alt="devoxxpl-2023">
+📸 &lt;a href="https://x.com/mattzcarey">Matt Carey&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://maxday.dev/pdf/2023-serverless-london.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Serverless testing is NOT hard</title><link>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</link><pubDate>Wed, 31 May 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;ul>
+&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
+&lt;p>In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2020-devoxxpl.JPG" alt="devoxxpl-2023">
+📸 Devoxx Poland &lt;a href="https://www.flickr.com/photos/bejug/52978598323/in/album-72177720309091435">flickr link&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://maxday.dev/pdf/2023-devoxxpl.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>OpenTelemetry, buzz-word or real need?</title><link>https://maxday.dev/talks/2023-03-22-opentelemetry/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-22-opentelemetry/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>What is OpenTelemetry? Why do you need it? How to implement it?&lt;/p>
+&lt;p>After defining some of the core concepts of observability, we will see why OpenTelemetry could be a key component of your applications. This talk will be punctuated by live demos to showcase how to implement OpenTelemetry in two different runtimes, spoiler alert: one of them is Rust :)&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2023-cncf.JPG" alt="CNCF Meetup March 2023">
+📸 David Avenante&lt;/p>
+&lt;p>&lt;a href="https://community.cncf.io/events/details/cncf-montreal-presents-secure-k8s-supply-chain-with-chainguards-wolfi-instrumentation-with-opentelemetry-happy-hour-with-guac-sboms-and-slsa-new-google-montreal-office/">link to the talk&lt;/a>
+| &lt;a href="https://maxday.dev/pdf/2023-cncf.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA">Link to Youtube Video&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA">&lt;img src="https://img.youtube.com/vi/aIKnb8iMtRA/0.jpg" alt="Guest Lecture at Duke University">&lt;/a>&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Guest lecture on Rust for AWS Lambda&lt;/p>
+&lt;p>Agenda :&lt;/p>
+&lt;ul>
+&lt;li>Intro&lt;/li>
+&lt;li>Serverless definitions&lt;/li>
+&lt;li>AWS Lambda&lt;/li>
+&lt;li>Demo&lt;/li>
+&lt;li>Cold Start&lt;/li>
+&lt;li>Beyond Hello World&lt;/li>
+&lt;li>Non-clean implementation&lt;/li>
+&lt;li>Clean code&lt;/li>
+&lt;li>Tests&lt;/li>
+&lt;li>CI/CD&lt;/li>
+&lt;li>Questions&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://nogibjj.github.io/rust-tutorial/guest_lectures.html#maxime-david">link to the talk&lt;/a>
+| &lt;a href="https://maxday.dev/pdf/2023-duke.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Serverless is NOT hard to test</title><link>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</link><pubDate>Thu, 23 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;ul>
+&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;I&amp;rsquo;m mocking S3 so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
+&lt;p>In this presentation, we will address those common beliefs by providing production ready examples.&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2023-confoo.JPG" alt="confoo-2023">
+📸 Xavier Bouclet&lt;/p>
+&lt;p>&lt;a href="https://confoo.ca/fr/2023/session/serverless-testing-is-not-hard">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2023-confoo.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Building and Monitoring a Serverless App on AWS</title><link>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>In this workshop, you’ll learn how to use Datadog to trace through popular AWS managed services like API Gateway, SNS, and SQS—and how you can use these insights to successfully operate your serverless services at scale. You’ll see this firsthand by designing, deploying, and monitoring a fully serverless GitHub bot.&lt;/p>
+&lt;p>&lt;em>Co-authored with &lt;a href="https://aaronstuyvenberg.com">AJ Stuyvenberg&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://maxday.dev/2022-dash.JPG" alt="dash 2022">
+📸 Jordan González&lt;/p>
+&lt;p>&lt;a href="https://www.dashcon.io/">Link to the workshop&lt;/a> | &lt;a href="https://maxday.dev/pdf/2022-dash.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Build a Real-time Pizza Tracker with Serverless</title><link>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>How Serverless technologies can be used to build a real-time pizza tracker?&lt;/p>
+&lt;p>In this talk we will dive into serverless-applied design-patterns with a live-demo session to answer the following question :&lt;/p>
+&lt;p>why and how a serverless architecture can be a great fit for realtime and highly scalable use cases?&lt;/p>
+&lt;p>&lt;a href="https://confoo.ca/fr/2022/session/build-a-real-time-pizza-tracker-with-serverless">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2022-confoo.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>How to test your awesome iOS app</title><link>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</link><pubDate>Tue, 08 Nov 2016 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo">Link to Youtube Video&lt;/a>&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>XCode provides developers with two kinds of test : unit tests and UI tests. This live coding session will introduce both of these concepts.&lt;/p>
+&lt;p>Schedule :&lt;/p>
+&lt;ul>
+&lt;li>Why should I test my mobile app ?&lt;/li>
+&lt;li>Live coding : synchronous and asynchronous tests&lt;/li>
+&lt;li>Live coding : UI tests&lt;/li>
+&lt;li>Code coverage&lt;/li>
+&lt;/ul>
+&lt;p>Everything shown in the session is available on Github, no more excuses to skip the tests :)&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo">&lt;img src="https://img.youtube.com/vi/mx4ISpaOjPo/0.jpg" alt="Devoxx Belgium 2016">&lt;/a>&lt;/p></description></item><item><title>Grunt power: developing and releasing your web app has never been so easy</title><link>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Grunt is a very (very) powerful tool to automate your JavaScript webapp development and release tasks. During a step by step live demo, I will present how to use this tool and why this is a must have in every front-end developers toolbox.&lt;/p>
+&lt;p>During live demos, we will see how to use Grunt to :&lt;/p>
+&lt;ul>
+&lt;li>start a local server to run your application&lt;/li>
+&lt;li>watch for code or style modifications (live reload)&lt;/li>
+&lt;li>compile SASS/LESS files to regular CSS&lt;/li>
+&lt;li>concatenate and minify JavaScript files&lt;/li>
+&lt;li>check for JavaScript errors against our pre-defined standard (thanks to JSHint)&lt;/li>
+&lt;li>add copyright headers to files&lt;/li>
+&lt;li>run unit tests and end-to-end tests&lt;/li>
+&lt;li>deploy the app to your integration servers&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://devoxx.ma">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2015-devoxxma.pdf">pdf&lt;/a>&lt;/p></description></item></channel></rss>
