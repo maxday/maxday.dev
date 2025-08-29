@@ -1,164 +1,167 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maxime David (maxday)</title><link>https://maxday.dev/</link><description>Recent content on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Short-Lived, Long Traced: Observability Deep Dive in Serverless</title><link>https://maxday.dev/talks/2025-06-12-opentelemetry-cncf/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-06-12-opentelemetry-cncf/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>Serverless computing empowers rapid development and elastic scaling but brings a unique set of observability challenges. How do you trace ephemeral executions, handle cold starts, or monitor performance under strict memory and CPU constraints?&lt;/p>
-&lt;p>In this talk, we&amp;rsquo;ll explore how OpenTelemetry helps tackle observability in serverless environments. We&amp;rsquo;ll start with a quick refresher on the core concepts, then dive into advanced topics like sampling strategies, context propagation, and latency tracing, even for short-lived or event-driven functions that vanish in milliseconds.&lt;/p></description></item><item><title>AWS Lambda &lt;> Open source</title><link>https://maxday.dev/talks/2025-05-17-aws-lambda-python-open-source/</link><pubDate>Sat, 17 May 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-05-17-aws-lambda-python-open-source/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>&amp;ldquo;Meet with the expert&amp;rdquo; session.
-Let&amp;rsquo;s talk about AWS Lambda, Runtimes, Python and Open-Source ❤️&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2025-pyconus-pittsburgh.jpg" alt="PyConUS-2025-Pittsburgh">
-📸 AWS&lt;/p></description></item><item><title>Java Profiler Extension for AWS Lambda</title><link>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>On this live stream hosted by Eric Johnson, I introduced an alpha version of the AWS Lambda Java Profiler, a profiling tool designed to help developers analyze the performance of their Java functions running in AWS Lambda.&lt;/p>
-&lt;p>I walked through how to build and deploy it as a Lambda extension, configure it with environment variables, and view profiling results like flame graphs in S3.&lt;/p>
-&lt;p>Host: Eric Johnson - Principal Developer Advocate, AWS Serverless.&lt;/p></description></item><item><title>Day18 | Advent of Rust | Error handling and unit tests</title><link>https://maxday.dev/videos/2023-12-18-advent-of-rust-day-18/</link><pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-18-advent-of-rust-day-18/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day17 | Advent of Rust | Mutex and concurrency</title><link>https://maxday.dev/videos/2023-12-17-advent-of-rust-day-17/</link><pubDate>Sun, 17 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-17-advent-of-rust-day-17/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day16 | Advent of Rust | POST endpoint</title><link>https://maxday.dev/videos/2023-12-16-advent-of-rust-day-16/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-16-advent-of-rust-day-16/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day15 | Advent of Rust | Application state</title><link>https://maxday.dev/videos/2023-12-15-advent-of-rust-day-15/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-15-advent-of-rust-day-15/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day14 | Advent of Rust | Authentication Part 6</title><link>https://maxday.dev/videos/2023-12-14-advent-of-rust-day-14/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-14-advent-of-rust-day-14/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day13 | Advent of Rust | Authentication Part 5</title><link>https://maxday.dev/videos/2023-12-13-advent-of-rust-day-13/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-13-advent-of-rust-day-13/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day12 | Advent of Rust | Authentication Part 4</title><link>https://maxday.dev/videos/2023-12-12-advent-of-rust-day-12/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-12-advent-of-rust-day-12/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day11 | Advent of Rust | Authentication Part 3</title><link>https://maxday.dev/videos/2023-12-11-advent-of-rust-day-11/</link><pubDate>Mon, 11 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-11-advent-of-rust-day-11/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day10 | Advent of Rust | Authentication Part 2</title><link>https://maxday.dev/videos/2023-12-10-advent-of-rust-day-10/</link><pubDate>Sun, 10 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-10-advent-of-rust-day-10/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day09 | Advent of Rust | Authentication Part 1</title><link>https://maxday.dev/videos/2023-12-09-advent-of-rust-day-09/</link><pubDate>Sat, 09 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-09-advent-of-rust-day-09/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day08 | Advent of Rust | Build a Docker image</title><link>https://maxday.dev/videos/2023-12-08-advent-of-rust-day-08/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-08-advent-of-rust-day-08/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day07 | Advent of Rust | Unit testing endpoint</title><link>https://maxday.dev/videos/2023-12-07-advent-of-rust-day-07/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-07-advent-of-rust-day-07/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day06 | Advent of Rust | Crates</title><link>https://maxday.dev/videos/2023-12-06-advent-of-rust-day-06/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-06-advent-of-rust-day-06/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day05 | Advent of Rust | Unit testing</title><link>https://maxday.dev/videos/2023-12-05-advent-of-rust-day-05/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-05-advent-of-rust-day-05/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day04 | Advent of Rust | Result type</title><link>https://maxday.dev/videos/2023-12-04-advent-of-rust-day-04/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-04-advent-of-rust-day-04/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day03 | Advent of Rust | Struct and functions</title><link>https://maxday.dev/videos/2023-12-03-advent-of-rust-day-03/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-03-advent-of-rust-day-03/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day02 | Advent of Rust | Cargo commands</title><link>https://maxday.dev/videos/2023-12-02-advent-of-rust-day-02/</link><pubDate>Sat, 02 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-02-advent-of-rust-day-02/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Day01 | Advent of Rust | Installation</title><link>https://maxday.dev/videos/2023-12-01-advent-of-rust-day-01/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-01-advent-of-rust-day-01/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Benchmarking AWS Lambda cold starts</title><link>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>Did you know that cold start duration is directly tied to the runtime that your AWS Lambda function is running on? You’ve probably seen some blog posts on cold start benchmarking, but they may already be out of date.&lt;/p>
-&lt;p>Join this dev chat for a deep dive on how to build an open-source and always up-to-date cold start benchmark. Get ready for an “Inception”-like experience, as the solution uses Lambda to benchmark Lambda.&lt;/p></description></item><item><title>Introduction to distributed tracing</title><link>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>Get ready for an immersive experience, with fewer slides and more live demos!&lt;/p>
-&lt;ul>
-&lt;li>What is distributed tracing?&lt;/li>
-&lt;li>How to implement it with OpenTelemetry?&lt;/li>
-&lt;li>Do you really need it for your applications?&lt;/li>
-&lt;/ul>
-&lt;p>After an ultra-condensed introduction to key concepts, we will dive into live demos about distributed tracing in a Rust&amp;amp;Go stack!&lt;/p>
-&lt;p>&lt;a href="https://maxday.dev/slides/2023-distributed-tracing.pdf">slides&lt;/a> | &lt;a href="https://maxday.dev/pdf/2023-distributed-tracing.pdf">pdf&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2023-cncf-quebec.jpeg" alt="CNCF-2023-Quebec">
-📸 CNCF Quebec&lt;/p></description></item><item><title>Rust on AWS App Runner - Part 2</title><link>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</guid><description>&lt;p>Hey hey hey 🍕!&lt;/p>
-&lt;p>This is the second part of this series, make sure you&amp;rsquo;ve already read &lt;a href="https://dev.to/aws-builders/rust-on-aws-app-runner-part1-4hpp">the first part&lt;/a> :)&lt;/p>
-&lt;p>In the first part, we saw how to create a basic Rust API with a &lt;code>GET /pizza&lt;/code> endpoint to retrieve the list of pizza.&lt;/p>
-&lt;p>In this part, let&amp;rsquo;s see how to containerize our app!&lt;/p>
-&lt;h2 id="lets-create-our-container">Let&amp;rsquo;s create our container&lt;/h2>
-&lt;p>Since AWS App Runner is a fully managed container application service, we definitely need a container!&lt;/p></description></item><item><title>Rust Live Coding | Build a dictionary</title><link>https://maxday.dev/videos/2023-09-03-rust-live-coding-build-a-dictionary/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-09-03-rust-live-coding-build-a-dictionary/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Rust on AWS App Runner - Part 1</title><link>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</guid><description>&lt;p>Hey hey hey 🍕!&lt;/p>
-&lt;p>Over the past few months, I&amp;rsquo;ve been advocating for Rust on AWS Lambda a lot!&lt;/p>
-&lt;p>Here is a quick recap in case you missed it!&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=Idys2BAmqIU">Live coding&lt;/a> a AWS Lambda in Rust with TDD&lt;/li>
-&lt;li>&lt;a href="https://github.com/maxday/lambda-perf">Lambda-Perf tool&lt;/a> where Rust is killing the cold start game&lt;/li>
-&lt;/ul>
-&lt;p>By the way, we&amp;rsquo;re almost at 256 ⭐️ which is 🤯 for a side project! I&amp;rsquo;m sure we can do it!&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/live/5ptACic_FJQ?feature=share&amp;amp;t=255">Rust Linz Meetup&lt;/a> where I gave a talk about Serverless + Rust&lt;/li>
-&lt;/ul>
-&lt;p>But as you may know, serverless is NOT only about AWS Lambda. If you need compute, &lt;strong>AWS App Runner&lt;/strong> might be a great fit!&lt;/p></description></item><item><title>How I Discovered That the AWS Lambda Runtime Might Be Written in Go</title><link>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</guid><description>&lt;p>Have you ever wondered how your Lambda function code is triggered?&lt;/p>
-&lt;p>Each runtime has to conform to the &lt;a href="https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html">AWS Lambda runtime API&lt;/a>.&lt;/p>
-&lt;p>In managed runtimes, you don&amp;rsquo;t need to take care of that; that&amp;rsquo;s the whole point of using a managed runtime! AWS takes care of that for you.&lt;/p>
-&lt;p>But how?&lt;/p>
-&lt;p>It&amp;rsquo;s hard to say because it&amp;rsquo;s not clearly documented. However, while I was conducting some unrelated experiments, I made a very cool discovery!
-I think you&amp;rsquo;ll find it interesting too!&lt;/p></description></item><item><title>Rust + Serverless = ❤️</title><link>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>Discover the unbeatable synergy of Rust with serverless components such as AWS Lambda or GCP Cloud Run.&lt;/p>
-&lt;p>Why Rust is the perfect match for serverless architecture?&lt;/p>
-&lt;p>Uncover the unique features of Rust that make it the top choice for building ultra-efficient and robust serverless apps.&lt;/p>
-&lt;p>Don&amp;rsquo;t miss this chance to revolutionize your cloud development game and enjoy a 100% serverless pizza tracker demo! 🍕&lt;/p>
-&lt;p>&lt;a href="https://maxday.dev/pdf/2023-rust-linz.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Benchmarking Lambda cold starts</title><link>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>Want to understand and minimize Lambda coldstarts?&lt;/p>
-&lt;p>Maxime David, Serverless Software Engineer at Datadog and AWS Community Builder, joins Julian Wood to go deep into cold start benchmarks.&lt;/p>
-&lt;p>You may have read blog posts about coldstart benchmarks but unfortunately those are likely to be outdated. See how Maxime created a project to gather Lambda coldstarts across all runtimes.&lt;/p>
-&lt;p>The report runs daily and compares and visualizes coldstart performance. You can see how Lambda optimizes cold starts over time.&lt;/p></description></item><item><title>Inception! Use serverless to build a Lambda coldstart benchmark across all runtimes</title><link>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;ul>
-&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
-&lt;p>In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2023-serverless-london.JPG" alt="devoxxpl-2023">
-📸 &lt;a href="https://x.com/mattzcarey">Matt Carey&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://maxday.dev/pdf/2023-serverless-london.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Serverless testing is NOT hard</title><link>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</link><pubDate>Wed, 31 May 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;ul>
-&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
-&lt;p>In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2020-devoxxpl.JPG" alt="devoxxpl-2023">
-📸 Devoxx Poland &lt;a href="https://www.flickr.com/photos/bejug/52978598323/in/album-72177720309091435">flickr link&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://maxday.dev/pdf/2023-devoxxpl.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Benchmarking Rust for Serverless</title><link>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</guid><description>&lt;p>Let&amp;rsquo;s start with two &lt;strong>very&lt;/strong> important questions:&lt;/p>
-&lt;ol>
-&lt;li>Why should I care to &lt;strong>benchmark&lt;/strong> Rust since it&amp;rsquo;s already super fast?&lt;/li>
-&lt;/ol>
-&lt;p>That&amp;rsquo;s the question we&amp;rsquo;ll try to answer in this post!&lt;/p>
-&lt;ol start="2">
-&lt;li>Will there be a 🍕 demo?&lt;/li>
-&lt;/ol>
-&lt;p>Of course, you know that I&amp;rsquo;m a true 🍕🍕🍕 lover!&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/blog-benchmark-rust.png" alt="benchmark rust">&lt;/p>
-&lt;h3 id="whats-so-special-about-serverless">What&amp;rsquo;s so special about Serverless?&lt;/h3>
-&lt;p>Benchmarking is not specific to serverless. But in serverless components, such as AWS Lambda functions, performance really matters for two main reasons:&lt;/p></description></item><item><title>OpenTelemetry, buzz-word or real need?</title><link>https://maxday.dev/talks/2023-03-22-opentelemetry/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-22-opentelemetry/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>What is OpenTelemetry? Why do you need it? How to implement it?&lt;/p>
-&lt;p>After defining some of the core concepts of observability, we will see why OpenTelemetry could be a key component of your applications. This talk will be punctuated by live demos to showcase how to implement OpenTelemetry in two different runtimes, spoiler alert: one of them is Rust :)&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2023-cncf.JPG" alt="CNCF Meetup March 2023">
-📸 David Avenante&lt;/p>
-&lt;p>&lt;a href="https://community.cncf.io/events/details/cncf-montreal-presents-secure-k8s-supply-chain-with-chainguards-wolfi-instrumentation-with-opentelemetry-happy-hour-with-guac-sboms-and-slsa-new-google-montreal-office/">link to the talk&lt;/a>
-| &lt;a href="https://maxday.dev/pdf/2023-cncf.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA">Link to Youtube Video&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA">&lt;img src="https://img.youtube.com/vi/aIKnb8iMtRA/0.jpg" alt="Guest Lecture at Duke University">&lt;/a>&lt;/p>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Guest lecture on Rust for AWS Lambda&lt;/p>
-&lt;p>Agenda :&lt;/p>
-&lt;ul>
-&lt;li>Intro&lt;/li>
-&lt;li>Serverless definitions&lt;/li>
-&lt;li>AWS Lambda&lt;/li>
-&lt;li>Demo&lt;/li>
-&lt;li>Cold Start&lt;/li>
-&lt;li>Beyond Hello World&lt;/li>
-&lt;li>Non-clean implementation&lt;/li>
-&lt;li>Clean code&lt;/li>
-&lt;li>Tests&lt;/li>
-&lt;li>CI/CD&lt;/li>
-&lt;li>Questions&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://nogibjj.github.io/rust-tutorial/guest_lectures.html#maxime-david">link to the talk&lt;/a>
-| &lt;a href="https://maxday.dev/pdf/2023-duke.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Serverless is NOT hard to test</title><link>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</link><pubDate>Thu, 23 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;ul>
-&lt;li>&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;I&amp;rsquo;m mocking S3 so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;p>Well well well, that&amp;rsquo;s not true!&lt;/p>
-&lt;p>In this presentation, we will address those common beliefs by providing production ready examples.&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2023-confoo.JPG" alt="confoo-2023">
-📸 Xavier Bouclet&lt;/p>
-&lt;p>&lt;a href="https://confoo.ca/fr/2023/session/serverless-testing-is-not-hard">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2023-confoo.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/videos/2023-02-03-rust-for-aws-lambda/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-02-03-rust-for-aws-lambda/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>How to test println!</title><link>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</guid><description>&lt;p>Let&amp;rsquo;s say we want to test that a function is correctly outputting something.&lt;/p>
-&lt;p>Our function may looks like this simple example: print n times the name given in parameter.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">greeting&lt;/span>(nb: &lt;span style="color:#66d9ef">i32&lt;/span>, name: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">str&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> _ &lt;span style="color:#66d9ef">in&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">..&lt;/span>nb {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">println!&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;hi &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, name);
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>How to test it? 🤔 It looks hard.&lt;/p>
-&lt;p>One easy way is to refactor our code using a &lt;code>Trait&lt;/code>.
-You can see Traits as interfaces.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">trait&lt;/span> Logger {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> self, value: String);
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, let&amp;rsquo;s define a &lt;code>struct&lt;/code> which implements this &lt;code>trait&lt;/code>.&lt;/p></description></item><item><title>TDD Live coding - Rust on AWS Lambda</title><link>https://maxday.dev/videos/2022-10-31-tdd-live-coding-rust-on-lambda/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2022-10-31-tdd-live-coding-rust-on-lambda/</guid><description>&lt;h3 id="video">Video&lt;/h3></description></item><item><title>Building and Monitoring a Serverless App on AWS</title><link>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>In this workshop, you’ll learn how to use Datadog to trace through popular AWS managed services like API Gateway, SNS, and SQS—and how you can use these insights to successfully operate your serverless services at scale. You’ll see this firsthand by designing, deploying, and monitoring a fully serverless GitHub bot.&lt;/p>
-&lt;p>&lt;em>Co-authored with &lt;a href="https://aaronstuyvenberg.com">AJ Stuyvenberg&lt;/a>.&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://maxday.dev/2022-dash.JPG" alt="dash 2022">
-📸 Jordan González&lt;/p>
-&lt;p>&lt;a href="https://www.dashcon.io/">Link to the workshop&lt;/a> | &lt;a href="https://maxday.dev/pdf/2022-dash.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>Build a Real-time Pizza Tracker with Serverless</title><link>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</guid><description>&lt;h3 id="abstract">Abstract:&lt;/h3>
-&lt;p>How Serverless technologies can be used to build a real-time pizza tracker?&lt;/p>
-&lt;p>In this talk we will dive into serverless-applied design-patterns with a live-demo session to answer the following question :&lt;/p>
-&lt;p>why and how a serverless architecture can be a great fit for realtime and highly scalable use cases?&lt;/p>
-&lt;p>&lt;a href="https://confoo.ca/fr/2022/session/build-a-real-time-pizza-tracker-with-serverless">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2022-confoo.pdf">pdf&lt;/a>&lt;/p></description></item><item><title>How to test your awesome iOS app</title><link>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</link><pubDate>Tue, 08 Nov 2016 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo">Link to Youtube Video&lt;/a>&lt;/p>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>XCode provides developers with two kinds of test : unit tests and UI tests. This live coding session will introduce both of these concepts.&lt;/p>
-&lt;p>Schedule :&lt;/p>
-&lt;ul>
-&lt;li>Why should I test my mobile app ?&lt;/li>
-&lt;li>Live coding : synchronous and asynchronous tests&lt;/li>
-&lt;li>Live coding : UI tests&lt;/li>
-&lt;li>Code coverage&lt;/li>
-&lt;/ul>
-&lt;p>Everything shown in the session is available on Github, no more excuses to skip the tests :)&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo">&lt;img src="https://img.youtube.com/vi/mx4ISpaOjPo/0.jpg" alt="Devoxx Belgium 2016">&lt;/a>&lt;/p></description></item><item><title>Grunt power: developing and releasing your web app has never been so easy</title><link>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
-&lt;p>Grunt is a very (very) powerful tool to automate your JavaScript webapp development and release tasks. During a step by step live demo, I will present how to use this tool and why this is a must have in every front-end developers toolbox.&lt;/p>
-&lt;p>During live demos, we will see how to use Grunt to :&lt;/p>
-&lt;ul>
-&lt;li>start a local server to run your application&lt;/li>
-&lt;li>watch for code or style modifications (live reload)&lt;/li>
-&lt;li>compile SASS/LESS files to regular CSS&lt;/li>
-&lt;li>concatenate and minify JavaScript files&lt;/li>
-&lt;li>check for JavaScript errors against our pre-defined standard (thanks to JSHint)&lt;/li>
-&lt;li>add copyright headers to files&lt;/li>
-&lt;li>run unit tests and end-to-end tests&lt;/li>
-&lt;li>deploy the app to your integration servers&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://devoxx.ma">link to the talk&lt;/a> | &lt;a href="https://maxday.dev/pdf/2015-devoxxma.pdf">pdf&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maxime David (maxday)</title><link>https://maxday.dev/</link><description>Recent content on Maxime David (maxday)</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://maxday.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Short-Lived, Long Traced: Observability Deep Dive in Serverless</title><link>https://maxday.dev/talks/2025-09-23-opentelemetry-cncf-montreal/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-09-23-opentelemetry-cncf-montreal/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;(will take place on September 23rd)&lt;/p&gt;
+&lt;p&gt;Serverless computing empowers rapid development and elastic scaling but brings a unique set of observability challenges. How do you trace ephemeral executions, handle cold starts, or monitor performance under strict memory and CPU constraints?&lt;/p&gt;
+&lt;p&gt;In this talk, we&amp;rsquo;ll explore how OpenTelemetry helps tackle observability in serverless environments. We&amp;rsquo;ll start with a quick refresher on the core concepts, then dive into advanced topics like sampling strategies, context propagation, and latency tracing, even for short-lived or event-driven functions that vanish in milliseconds.&lt;/p&gt;</description></item><item><title>Short-Lived, Long Traced: Observability Deep Dive in Serverless</title><link>https://maxday.dev/talks/2025-06-12-opentelemetry-cncf/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-06-12-opentelemetry-cncf/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Serverless computing empowers rapid development and elastic scaling but brings a unique set of observability challenges. How do you trace ephemeral executions, handle cold starts, or monitor performance under strict memory and CPU constraints?&lt;/p&gt;
+&lt;p&gt;In this talk, we&amp;rsquo;ll explore how OpenTelemetry helps tackle observability in serverless environments. We&amp;rsquo;ll start with a quick refresher on the core concepts, then dive into advanced topics like sampling strategies, context propagation, and latency tracing, even for short-lived or event-driven functions that vanish in milliseconds.&lt;/p&gt;</description></item><item><title>AWS Lambda &lt;&gt; Open source</title><link>https://maxday.dev/talks/2025-05-17-aws-lambda-python-open-source/</link><pubDate>Sat, 17 May 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-05-17-aws-lambda-python-open-source/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Meet with the expert&amp;rdquo; session.
+Let&amp;rsquo;s talk about AWS Lambda, Runtimes, Python and Open-Source ❤️&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2025-pyconus-pittsburgh.jpg" alt="PyConUS-2025-Pittsburgh"&gt;
+📸 AWS&lt;/p&gt;</description></item><item><title>Java Profiler Extension for AWS Lambda</title><link>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2025-04-22-java-profiler-for-aws-lambda/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;On this live stream hosted by Eric Johnson, I introduced an alpha version of the AWS Lambda Java Profiler, a profiling tool designed to help developers analyze the performance of their Java functions running in AWS Lambda.&lt;/p&gt;
+&lt;p&gt;I walked through how to build and deploy it as a Lambda extension, configure it with environment variables, and view profiling results like flame graphs in S3.&lt;/p&gt;
+&lt;p&gt;Host: Eric Johnson - Principal Developer Advocate, AWS Serverless.&lt;/p&gt;</description></item><item><title>Day18 | Advent of Rust | Error handling and unit tests</title><link>https://maxday.dev/videos/2023-12-18-advent-of-rust-day-18/</link><pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-18-advent-of-rust-day-18/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day17 | Advent of Rust | Mutex and concurrency</title><link>https://maxday.dev/videos/2023-12-17-advent-of-rust-day-17/</link><pubDate>Sun, 17 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-17-advent-of-rust-day-17/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day16 | Advent of Rust | POST endpoint</title><link>https://maxday.dev/videos/2023-12-16-advent-of-rust-day-16/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-16-advent-of-rust-day-16/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day15 | Advent of Rust | Application state</title><link>https://maxday.dev/videos/2023-12-15-advent-of-rust-day-15/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-15-advent-of-rust-day-15/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day14 | Advent of Rust | Authentication Part 6</title><link>https://maxday.dev/videos/2023-12-14-advent-of-rust-day-14/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-14-advent-of-rust-day-14/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day13 | Advent of Rust | Authentication Part 5</title><link>https://maxday.dev/videos/2023-12-13-advent-of-rust-day-13/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-13-advent-of-rust-day-13/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day12 | Advent of Rust | Authentication Part 4</title><link>https://maxday.dev/videos/2023-12-12-advent-of-rust-day-12/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-12-advent-of-rust-day-12/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day11 | Advent of Rust | Authentication Part 3</title><link>https://maxday.dev/videos/2023-12-11-advent-of-rust-day-11/</link><pubDate>Mon, 11 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-11-advent-of-rust-day-11/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day10 | Advent of Rust | Authentication Part 2</title><link>https://maxday.dev/videos/2023-12-10-advent-of-rust-day-10/</link><pubDate>Sun, 10 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-10-advent-of-rust-day-10/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day09 | Advent of Rust | Authentication Part 1</title><link>https://maxday.dev/videos/2023-12-09-advent-of-rust-day-09/</link><pubDate>Sat, 09 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-09-advent-of-rust-day-09/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day08 | Advent of Rust | Build a Docker image</title><link>https://maxday.dev/videos/2023-12-08-advent-of-rust-day-08/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-08-advent-of-rust-day-08/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day07 | Advent of Rust | Unit testing endpoint</title><link>https://maxday.dev/videos/2023-12-07-advent-of-rust-day-07/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-07-advent-of-rust-day-07/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day06 | Advent of Rust | Crates</title><link>https://maxday.dev/videos/2023-12-06-advent-of-rust-day-06/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-06-advent-of-rust-day-06/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day05 | Advent of Rust | Unit testing</title><link>https://maxday.dev/videos/2023-12-05-advent-of-rust-day-05/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-05-advent-of-rust-day-05/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day04 | Advent of Rust | Result type</title><link>https://maxday.dev/videos/2023-12-04-advent-of-rust-day-04/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-04-advent-of-rust-day-04/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day03 | Advent of Rust | Struct and functions</title><link>https://maxday.dev/videos/2023-12-03-advent-of-rust-day-03/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-03-advent-of-rust-day-03/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day02 | Advent of Rust | Cargo commands</title><link>https://maxday.dev/videos/2023-12-02-advent-of-rust-day-02/</link><pubDate>Sat, 02 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-02-advent-of-rust-day-02/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Day01 | Advent of Rust | Installation</title><link>https://maxday.dev/videos/2023-12-01-advent-of-rust-day-01/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-12-01-advent-of-rust-day-01/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Benchmarking AWS Lambda cold starts</title><link>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-29-benchmarking-aws-lambda-cold-starts/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Did you know that cold start duration is directly tied to the runtime that your AWS Lambda function is running on? You’ve probably seen some blog posts on cold start benchmarking, but they may already be out of date.&lt;/p&gt;
+&lt;p&gt;Join this dev chat for a deep dive on how to build an open-source and always up-to-date cold start benchmark. Get ready for an “Inception”-like experience, as the solution uses Lambda to benchmark Lambda.&lt;/p&gt;</description></item><item><title>Introduction to distributed tracing</title><link>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-11-16-introduction-to-distributed-tracing/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Get ready for an immersive experience, with fewer slides and more live demos!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is distributed tracing?&lt;/li&gt;
+&lt;li&gt;How to implement it with OpenTelemetry?&lt;/li&gt;
+&lt;li&gt;Do you really need it for your applications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After an ultra-condensed introduction to key concepts, we will dive into live demos about distributed tracing in a Rust&amp;amp;Go stack!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://maxday.dev/slides/2023-distributed-tracing.pdf"&gt;slides&lt;/a&gt; | &lt;a href="https://maxday.dev/pdf/2023-distributed-tracing.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2023-cncf-quebec.jpeg" alt="CNCF-2023-Quebec"&gt;
+📸 CNCF Quebec&lt;/p&gt;</description></item><item><title>Rust on AWS App Runner - Part 2</title><link>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-09-04-rust-on-aws-app-runner-2/</guid><description>&lt;p&gt;Hey hey hey 🍕!&lt;/p&gt;
+&lt;p&gt;This is the second part of this series, make sure you&amp;rsquo;ve already read &lt;a href="https://dev.to/aws-builders/rust-on-aws-app-runner-part1-4hpp"&gt;the first part&lt;/a&gt; :)&lt;/p&gt;
+&lt;p&gt;In the first part, we saw how to create a basic Rust API with a &lt;code&gt;GET /pizza&lt;/code&gt; endpoint to retrieve the list of pizza.&lt;/p&gt;
+&lt;p&gt;In this part, let&amp;rsquo;s see how to containerize our app!&lt;/p&gt;
+&lt;h2 id="lets-create-our-container"&gt;Let&amp;rsquo;s create our container&lt;/h2&gt;
+&lt;p&gt;Since AWS App Runner is a fully managed container application service, we definitely need a container!&lt;/p&gt;</description></item><item><title>Rust Live Coding | Build a dictionary</title><link>https://maxday.dev/videos/2023-09-03-rust-live-coding-build-a-dictionary/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-09-03-rust-live-coding-build-a-dictionary/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Rust on AWS App Runner - Part 1</title><link>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-21-rust-on-aws-app-runner/</guid><description>&lt;p&gt;Hey hey hey 🍕!&lt;/p&gt;
+&lt;p&gt;Over the past few months, I&amp;rsquo;ve been advocating for Rust on AWS Lambda a lot!&lt;/p&gt;
+&lt;p&gt;Here is a quick recap in case you missed it!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=Idys2BAmqIU"&gt;Live coding&lt;/a&gt; a AWS Lambda in Rust with TDD&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maxday/lambda-perf"&gt;Lambda-Perf tool&lt;/a&gt; where Rust is killing the cold start game&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By the way, we&amp;rsquo;re almost at 256 ⭐️ which is 🤯 for a side project! I&amp;rsquo;m sure we can do it!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/live/5ptACic_FJQ?feature=share&amp;amp;t=255"&gt;Rust Linz Meetup&lt;/a&gt; where I gave a talk about Serverless + Rust&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But as you may know, serverless is NOT only about AWS Lambda. If you need compute, &lt;strong&gt;AWS App Runner&lt;/strong&gt; might be a great fit!&lt;/p&gt;</description></item><item><title>How I Discovered That the AWS Lambda Runtime Might Be Written in Go</title><link>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-08-02-lambda-runtime-api-is-written-in-go/</guid><description>&lt;p&gt;Have you ever wondered how your Lambda function code is triggered?&lt;/p&gt;
+&lt;p&gt;Each runtime has to conform to the &lt;a href="https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html"&gt;AWS Lambda runtime API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In managed runtimes, you don&amp;rsquo;t need to take care of that; that&amp;rsquo;s the whole point of using a managed runtime! AWS takes care of that for you.&lt;/p&gt;
+&lt;p&gt;But how?&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to say because it&amp;rsquo;s not clearly documented. However, while I was conducting some unrelated experiments, I made a very cool discovery!
+I think you&amp;rsquo;ll find it interesting too!&lt;/p&gt;</description></item><item><title>Rust + Serverless = ❤️</title><link>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-31-serverless-and-rust/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Discover the unbeatable synergy of Rust with serverless components such as AWS Lambda or GCP Cloud Run.&lt;/p&gt;
+&lt;p&gt;Why Rust is the perfect match for serverless architecture?&lt;/p&gt;
+&lt;p&gt;Uncover the unique features of Rust that make it the top choice for building ultra-efficient and robust serverless apps.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t miss this chance to revolutionize your cloud development game and enjoy a 100% serverless pizza tracker demo! 🍕&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://maxday.dev/pdf/2023-rust-linz.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Benchmarking Lambda cold starts</title><link>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-07-04-benchmarking-lambda-cold-starts/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;Want to understand and minimize Lambda coldstarts?&lt;/p&gt;
+&lt;p&gt;Maxime David, Serverless Software Engineer at Datadog and AWS Community Builder, joins Julian Wood to go deep into cold start benchmarks.&lt;/p&gt;
+&lt;p&gt;You may have read blog posts about coldstart benchmarks but unfortunately those are likely to be outdated. See how Maxime created a project to gather Lambda coldstarts across all runtimes.&lt;/p&gt;
+&lt;p&gt;The report runs daily and compares and visualizes coldstart performance. You can see how Lambda optimizes cold starts over time.&lt;/p&gt;</description></item><item><title>Inception! Use serverless to build a Lambda coldstart benchmark across all runtimes</title><link>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-06-22-inception-use-serverless-to-benchmark-serverless/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well well well, that&amp;rsquo;s not true!&lt;/p&gt;
+&lt;p&gt;In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2023-serverless-london.JPG" alt="devoxxpl-2023"&gt;
+📸 &lt;a href="https://x.com/mattzcarey"&gt;Matt Carey&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://maxday.dev/pdf/2023-serverless-london.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Serverless testing is NOT hard</title><link>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</link><pubDate>Wed, 31 May 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-05-31-serverless-testing-is-not-hard/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I&amp;rsquo;m mocking DynamoDB so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well well well, that&amp;rsquo;s not true!&lt;/p&gt;
+&lt;p&gt;In this presentation, we will address those common beliefs by providing production ready examples: we build a Pizza api with Lambda and DynamoDB.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2020-devoxxpl.JPG" alt="devoxxpl-2023"&gt;
+📸 Devoxx Poland &lt;a href="https://www.flickr.com/photos/bejug/52978598323/in/album-72177720309091435"&gt;flickr link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://maxday.dev/pdf/2023-devoxxpl.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Benchmarking Rust for Serverless</title><link>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</link><pubDate>Thu, 13 Apr 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2023-04-13-benchmarking-rust-for-serverless/</guid><description>&lt;p&gt;Let&amp;rsquo;s start with two &lt;strong&gt;very&lt;/strong&gt; important questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Why should I care to &lt;strong&gt;benchmark&lt;/strong&gt; Rust since it&amp;rsquo;s already super fast?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s the question we&amp;rsquo;ll try to answer in this post!&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Will there be a 🍕 demo?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Of course, you know that I&amp;rsquo;m a true 🍕🍕🍕 lover!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/blog-benchmark-rust.png" alt="benchmark rust"&gt;&lt;/p&gt;
+&lt;h3 id="whats-so-special-about-serverless"&gt;What&amp;rsquo;s so special about Serverless?&lt;/h3&gt;
+&lt;p&gt;Benchmarking is not specific to serverless. But in serverless components, such as AWS Lambda functions, performance really matters for two main reasons:&lt;/p&gt;</description></item><item><title>OpenTelemetry, buzz-word or real need?</title><link>https://maxday.dev/talks/2023-03-22-opentelemetry/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-22-opentelemetry/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;What is OpenTelemetry? Why do you need it? How to implement it?&lt;/p&gt;
+&lt;p&gt;After defining some of the core concepts of observability, we will see why OpenTelemetry could be a key component of your applications. This talk will be punctuated by live demos to showcase how to implement OpenTelemetry in two different runtimes, spoiler alert: one of them is Rust :)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2023-cncf.JPG" alt="CNCF Meetup March 2023"&gt;
+📸 David Avenante&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://community.cncf.io/events/details/cncf-montreal-presents-secure-k8s-supply-chain-with-chainguards-wolfi-instrumentation-with-opentelemetry-happy-hour-with-guac-sboms-and-slsa-new-google-montreal-office/"&gt;link to the talk&lt;/a&gt;
+| &lt;a href="https://maxday.dev/pdf/2023-cncf.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-03-01-rust-for-aws-lambda/</guid><description>&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA"&gt;Link to Youtube Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=aIKnb8iMtRA"&gt;&lt;img src="https://img.youtube.com/vi/aIKnb8iMtRA/0.jpg" alt="Guest Lecture at Duke University"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Guest lecture on Rust for AWS Lambda&lt;/p&gt;
+&lt;p&gt;Agenda :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intro&lt;/li&gt;
+&lt;li&gt;Serverless definitions&lt;/li&gt;
+&lt;li&gt;AWS Lambda&lt;/li&gt;
+&lt;li&gt;Demo&lt;/li&gt;
+&lt;li&gt;Cold Start&lt;/li&gt;
+&lt;li&gt;Beyond Hello World&lt;/li&gt;
+&lt;li&gt;Non-clean implementation&lt;/li&gt;
+&lt;li&gt;Clean code&lt;/li&gt;
+&lt;li&gt;Tests&lt;/li&gt;
+&lt;li&gt;CI/CD&lt;/li&gt;
+&lt;li&gt;Questions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://nogibjj.github.io/rust-tutorial/guest_lectures.html#maxime-david"&gt;link to the talk&lt;/a&gt;
+| &lt;a href="https://maxday.dev/pdf/2023-duke.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Serverless is NOT hard to test</title><link>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</link><pubDate>Thu, 23 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2023-02-23-serverless-is-not-hard-to-test/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;I don&amp;rsquo;t use AWS Lambda because it&amp;rsquo;s hard to test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I&amp;rsquo;m mocking S3 so it&amp;rsquo;s not a real test&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The feedback loop is terrible, the developer experience is awful&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well well well, that&amp;rsquo;s not true!&lt;/p&gt;
+&lt;p&gt;In this presentation, we will address those common beliefs by providing production ready examples.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2023-confoo.JPG" alt="confoo-2023"&gt;
+📸 Xavier Bouclet&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://confoo.ca/fr/2023/session/serverless-testing-is-not-hard"&gt;link to the talk&lt;/a&gt; | &lt;a href="https://maxday.dev/pdf/2023-confoo.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Rust for AWS Lambda</title><link>https://maxday.dev/videos/2023-02-03-rust-for-aws-lambda/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2023-02-03-rust-for-aws-lambda/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>How to test println!</title><link>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/posts/2022-11-22-how-to-test-println-in-rust/</guid><description>&lt;p&gt;Let&amp;rsquo;s say we want to test that a function is correctly outputting something.&lt;/p&gt;
+&lt;p&gt;Our function may looks like this simple example: print n times the name given in parameter.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-rust" data-lang="rust"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;fn&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;greeting&lt;/span&gt;(nb: &lt;span style="color:#66d9ef"&gt;i32&lt;/span&gt;, name: &lt;span style="color:#66d9ef"&gt;&amp;amp;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;str&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; _ &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;&lt;span style="color:#f92672"&gt;..&lt;/span&gt;nb {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;println!&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;hi &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;, name);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; } 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;How to test it? 🤔 It looks hard.&lt;/p&gt;
+&lt;p&gt;One easy way is to refactor our code using a &lt;code&gt;Trait&lt;/code&gt;.
+You can see Traits as interfaces.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-rust" data-lang="rust"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;trait&lt;/span&gt; Logger {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;fn&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#f92672"&gt;&amp;amp;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;mut&lt;/span&gt; self, value: String);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, let&amp;rsquo;s define a &lt;code&gt;struct&lt;/code&gt; which implements this &lt;code&gt;trait&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>TDD Live coding - Rust on AWS Lambda</title><link>https://maxday.dev/videos/2022-10-31-tdd-live-coding-rust-on-lambda/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/videos/2022-10-31-tdd-live-coding-rust-on-lambda/</guid><description>&lt;h3 id="video"&gt;Video&lt;/h3&gt;</description></item><item><title>Building and Monitoring a Serverless App on AWS</title><link>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-10-19-building-and-monitoring-a-serverless-app-on-aws/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;In this workshop, you’ll learn how to use Datadog to trace through popular AWS managed services like API Gateway, SNS, and SQS—and how you can use these insights to successfully operate your serverless services at scale. You’ll see this firsthand by designing, deploying, and monitoring a fully serverless GitHub bot.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Co-authored with &lt;a href="https://aaronstuyvenberg.com"&gt;AJ Stuyvenberg&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maxday.dev/2022-dash.JPG" alt="dash 2022"&gt;
+📸 Jordan González&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.dashcon.io/"&gt;Link to the workshop&lt;/a&gt; | &lt;a href="https://maxday.dev/pdf/2022-dash.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Build a Real-time Pizza Tracker with Serverless</title><link>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2022-02-24-build-a-real-time-pizza-tracker-with-serverless/</guid><description>&lt;h3 id="abstract"&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;How Serverless technologies can be used to build a real-time pizza tracker?&lt;/p&gt;
+&lt;p&gt;In this talk we will dive into serverless-applied design-patterns with a live-demo session to answer the following question :&lt;/p&gt;
+&lt;p&gt;why and how a serverless architecture can be a great fit for realtime and highly scalable use cases?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://confoo.ca/fr/2022/session/build-a-real-time-pizza-tracker-with-serverless"&gt;link to the talk&lt;/a&gt; | &lt;a href="https://maxday.dev/pdf/2022-confoo.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item><item><title>How to test your awesome iOS app</title><link>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</link><pubDate>Tue, 08 Nov 2016 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2016-11-08-how-to-test-your-awesome-ios-app/</guid><description>&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo"&gt;Link to Youtube Video&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;XCode provides developers with two kinds of test : unit tests and UI tests. This live coding session will introduce both of these concepts.&lt;/p&gt;
+&lt;p&gt;Schedule :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why should I test my mobile app ?&lt;/li&gt;
+&lt;li&gt;Live coding : synchronous and asynchronous tests&lt;/li&gt;
+&lt;li&gt;Live coding : UI tests&lt;/li&gt;
+&lt;li&gt;Code coverage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everything shown in the session is available on Github, no more excuses to skip the tests :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=mx4ISpaOjPo"&gt;&lt;img src="https://img.youtube.com/vi/mx4ISpaOjPo/0.jpg" alt="Devoxx Belgium 2016"&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Grunt power: developing and releasing your web app has never been so easy</title><link>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0800</pubDate><guid>https://maxday.dev/talks/2015-11-16-grunt-power-developping-and-releasing-your-web-app-has-never-been-so-easy/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Grunt is a very (very) powerful tool to automate your JavaScript webapp development and release tasks. During a step by step live demo, I will present how to use this tool and why this is a must have in every front-end developers toolbox.&lt;/p&gt;
+&lt;p&gt;During live demos, we will see how to use Grunt to :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;start a local server to run your application&lt;/li&gt;
+&lt;li&gt;watch for code or style modifications (live reload)&lt;/li&gt;
+&lt;li&gt;compile SASS/LESS files to regular CSS&lt;/li&gt;
+&lt;li&gt;concatenate and minify JavaScript files&lt;/li&gt;
+&lt;li&gt;check for JavaScript errors against our pre-defined standard (thanks to JSHint)&lt;/li&gt;
+&lt;li&gt;add copyright headers to files&lt;/li&gt;
+&lt;li&gt;run unit tests and end-to-end tests&lt;/li&gt;
+&lt;li&gt;deploy the app to your integration servers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://devoxx.ma"&gt;link to the talk&lt;/a&gt; | &lt;a href="https://maxday.dev/pdf/2015-devoxxma.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
