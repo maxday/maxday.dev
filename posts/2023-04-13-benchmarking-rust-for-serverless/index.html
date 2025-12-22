@@ -13,7 +13,7 @@ Benchmarking is not specific to serverless. But in serverless components, such a
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>get_pizza_of_the_day</span>(<span style=color:#f92672>&amp;</span>self, day_index: <span style=color:#66d9ef>i32</span>) -&gt; <span style=color:#66d9ef>&amp;</span><span style=color:#66d9ef>str</span>;
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><p>And our first implementation with HashMap:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>// let&#39;s make sure we don&#39;t initialize a new HashMap each time
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>pub</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>PizzaHashMap</span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>&#39;a</span><span style=color:#f92672>&gt;</span> {
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>pub</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>PizzaHashMap</span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>&#39;a</span><span style=color:#f92672>&gt;</span> {
 </span></span><span style=display:flex><span>    cache: <span style=color:#a6e22e>HashMap</span><span style=color:#f92672>&lt;</span><span style=color:#66d9ef>i32</span>, <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>&#39;a</span> <span style=color:#66d9ef>str</span><span style=color:#f92672>&gt;</span>, 
 </span></span><span style=display:flex><span>}
 </span></span><span style=display:flex><span>
@@ -29,14 +29,14 @@ Benchmarking is not specific to serverless. But in serverless components, such a
 </span></span><span style=display:flex><span>                (<span style=color:#ae81ff>5</span>, <span style=color:#e6db74>&#34;four cheese&#34;</span>),
 </span></span><span style=display:flex><span>                (<span style=color:#ae81ff>6</span>, <span style=color:#e6db74>&#34;pepperoni&#34;</span>),
 </span></span><span style=display:flex><span>                <span style=color:#75715e>// what&#39;s your favorite?
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            ]),
+</span></span></span><span style=display:flex><span>            ]),
 </span></span><span style=display:flex><span>        }
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>}
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>impl</span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>&#39;a</span><span style=color:#f92672>&gt;</span> PizzaStore <span style=color:#66d9ef>for</span> PizzaHashMap<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>&#39;a</span><span style=color:#f92672>&gt;</span> {
 </span></span><span style=display:flex><span>    <span style=color:#75715e>// let&#39;s get the pizza of the day from the cache (HashMap)
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>get_pizza_of_the_day</span>(<span style=color:#f92672>&amp;</span>self, day_index: <span style=color:#66d9ef>i32</span>) -&gt; <span style=color:#66d9ef>&amp;</span><span style=color:#66d9ef>str</span> {
+</span></span></span><span style=display:flex><span>    <span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>get_pizza_of_the_day</span>(<span style=color:#f92672>&amp;</span>self, day_index: <span style=color:#66d9ef>i32</span>) -&gt; <span style=color:#66d9ef>&amp;</span><span style=color:#66d9ef>str</span> {
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>match</span> self.cache.get(<span style=color:#f92672>&amp;</span>day_index) {
 </span></span><span style=display:flex><span>            Some(<span style=color:#f92672>&amp;</span>pizza) <span style=color:#f92672>=&gt;</span> pizza,
 </span></span><span style=display:flex><span>            None <span style=color:#f92672>=&gt;</span> <span style=color:#a6e22e>panic!</span>(<span style=color:#e6db74>&#34;could not find the pizza&#34;</span>),
@@ -47,9 +47,9 @@ Benchmarking is not specific to serverless. But in serverless components, such a
 Let&rsquo;s start by creating a <code>benches</code> folder containing a <code>benchmark.rs</code> file and add our first criterion:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>criterion_hashmap</span>(c: <span style=color:#66d9ef>&amp;</span><span style=color:#a6e22e>mut</span> Criterion) {
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#66d9ef>mut</span> rng <span style=color:#f92672>=</span> rand::thread_rng();
 </span></span><span style=display:flex><span>    <span style=color:#75715e>// we create the cache outside of the bench function so only one HashMap will be created
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>let</span> pizza_store_hashmap <span style=color:#f92672>=</span> PizzaHashMap::new();
+</span></span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> pizza_store_hashmap <span style=color:#f92672>=</span> PizzaHashMap::new();
 </span></span><span style=display:flex><span>    <span style=color:#75715e>// we call get_pizza_of_the_day with a random day index
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    c.bench_function(<span style=color:#e6db74>&#34;with hashmap&#34;</span>, <span style=color:#f92672>|</span>b<span style=color:#f92672>|</span> b.iter(<span style=color:#f92672>||</span> pizza_store_hashmap.get_pizza_of_the_day(rng.gen_range(<span style=color:#ae81ff>0</span><span style=color:#f92672>..</span><span style=color:#ae81ff>7</span>))));
+</span></span></span><span style=display:flex><span>    c.bench_function(<span style=color:#e6db74>&#34;with hashmap&#34;</span>, <span style=color:#f92672>|</span>b<span style=color:#f92672>|</span> b.iter(<span style=color:#f92672>||</span> pizza_store_hashmap.get_pizza_of_the_day(rng.gen_range(<span style=color:#ae81ff>0</span><span style=color:#f92672>..</span><span style=color:#ae81ff>7</span>))));
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><p>We also need a bench group (as we will add more criterion later)</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#a6e22e>criterion_group!</span>(benches, criterion_hashmap);
 </span></span><span style=display:flex><span><span style=color:#a6e22e>criterion_main!</span>(benches);
